@@ -3,7 +3,8 @@ title: Summary
 ---
 # Summary
 
-{% for item in site.data.object_config %}
-<h3>{{item}}</h3>
-<h2>{{item.usage_note}}</h2>
+{% for item in site.data.object_properties %}
+<h3>{{item.predicagte}}</h3>
+{% for item in site.data.object_properties %}
+<p>{{item.definition}}</p>
 {% endfor %}
