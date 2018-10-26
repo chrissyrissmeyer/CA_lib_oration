@@ -1,6 +1,6 @@
 ---
 title: Home
 ---
-#Metadata Documentation
+# Metadata Documentation
 
 Some text here.
